@@ -52,6 +52,31 @@
 
 
 /*----------
+ Nav Bar 
+ ----------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 130px 0px 130px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    font-weight: 700;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/*----------
  Top Section 
     Banner 
 ------------*/
@@ -128,4 +153,46 @@
     display: flex;
     gap: 100px;
     justify-content: space-around;
+}
+
+
+/* footer */
+.footer {
+    width: 80%;
+    margin: 50px 0;
+    padding: 20px;
+    text-align: center;
+    background-color: bisque;
+    color: rgb(46, 44, 44);
+}
+
+
+
+/*------------
+    Responsive
+------------- */
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .nav-title {
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+    }
+
+    nav li {
+        margin: 0;
+    }
 }
