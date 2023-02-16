@@ -2,6 +2,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    align-items: center;
 }
 
 /* ---------------
@@ -23,7 +24,8 @@
 
 .title {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 65px;
+    margin: 0 5px;
 }
 
 .secondary-title {
@@ -45,7 +47,7 @@
 .bold-font {
     font-weight: 700;
     color: black;
-    font-size: 700;
+    font-size: 35px;
 }
 
 
@@ -55,10 +57,75 @@
 ------------*/
 .top-section {
     background-color: #FF900E1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.banner-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 864px;
+    text-align: center;
+
+}
+
 
 .banner img {
     width: 70%;
     border-radius: 5px;
-    margin: 30px 0;
+    margin: 35px 0;
+}
+
+/*--------------
+ Some Facts
+ -------------*/
+.facts-container {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.fact {
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fact:hover {
+    background-color: #FF900E;
+    color: white;
+    transform: scale(0.8);
+}
+
+.fact-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.fact-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/*--------------
+ Our Soonsors
+ -------------- */
+
+.Sponsors {
+    text-align: center;
+}
+
+.sponsor-img {
+    margin: 60px 40px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
 }
