@@ -214,7 +214,8 @@ nav li {
 .fact:hover {
     background-color: #FF900E;
     color: white;
-    transform: scale(0.7);
+    transform: scale(0.7) translate(30px);
+
 
 }
 
@@ -323,5 +324,93 @@ nav li {
 
     nav li {
         margin: 0;
+    }
+
+    /* header */
+
+    .title {
+        font-size: 38px;
+    }
+
+    .middle-portion,
+    .features,
+    .facts-container,
+    .services-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Banner */
+    .banner-heading {
+        width: auto;
+    }
+
+    /* Middle Portion */
+
+    .side-section {
+        margin-left: 0px;
+    }
+
+    /* Feature */
+    .features {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .feature-img img {
+        margin: 0 20px;
+        width: 80%;
+    }
+
+    .square-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .relative-btn {
+        position: static;
+        margin: 10px 40px;
+        padding: 10px 20px;
+
+    }
+
+    .btn-font {
+        font-size: 50px;
+    }
+
+    /* Fact */
+    .fact {
+        margin-bottom: 10px;
+    }
+
+    .facts-container {
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .some-facts-heading {
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* Service */
+    .services {
+        padding: 0;
+    }
+
+    .service {
+        width: auto;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Sponsor */
+    .sponsor-img {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
     }
 }
