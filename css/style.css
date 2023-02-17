@@ -176,6 +176,15 @@ nav li {
     justify-content: center;
 }
 
+.some-facts-heading {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.fact img {
+    width: 30%;
+}
+
 .fact {
     width: 241.83px;
     height: 241.83px;
@@ -183,25 +192,32 @@ nav li {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 
-}
-
-.fact:hover {
-    background-color: #FF900E;
-    color: white;
-    transform: scale(0.8);
 }
 
 .fact-title {
     font-weight: 600;
     font-size: 45px;
+    margin: 0;
 }
 
 .fact-description {
     font-weight: 600;
     font-size: 20px;
     color: #727272;
+    margin: 0;
 }
+
+.fact:hover {
+    background-color: #FF900E;
+    color: white;
+    transform: scale(0.7);
+
+}
+
 
 /*--------------
  Our Soonsors
