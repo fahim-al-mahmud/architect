@@ -218,6 +218,55 @@ nav li {
 
 }
 
+/*------------------
+    Our Services 
+ ------------------*/
+
+.services {
+    color: white;
+    background-color: #FF900E;
+    padding: 20px 100px 80px 100px;
+}
+
+.services-container {
+    display: flex;
+    gap: 30px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    width: 350px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: white;
+    text-shadow: 0 0 3px #974302, 0 0 5px #ffffff;
+}
+
+.service-img img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.bold-font-white {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 0;
+}
 
 /*--------------
  Our Soonsors
@@ -225,6 +274,7 @@ nav li {
 
 .Sponsors {
     text-align: center;
+    margin: 60px 0px;
 }
 
 .sponsor-img {
@@ -237,8 +287,8 @@ nav li {
 
 /* footer */
 .footer {
-    width: 80%;
-    margin: 50px 0;
+    width: auto;
+    margin-top: 60px;
     padding: 20px;
     text-align: center;
     background-color: bisque;
